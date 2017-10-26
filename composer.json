@@ -1,0 +1,16 @@
+{
+  "name": "dennisdigital/phantomjscontext",
+  "description": "Dennis PhantomJS Context.",
+  "type": "project",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "require": {
+    "saintberry/phantomjs-extension": "dev-28851_enable_restart_afterscenario"
+  },
+
+  "autoload": {
+    "psr-4": {"dennisdigital\\": "src/"}
+  }
+}
