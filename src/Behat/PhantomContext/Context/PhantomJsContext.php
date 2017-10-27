@@ -19,7 +19,6 @@ class PhantomJsContext implements MinkAwareContext {
    * @param BeforeScenarioScope $scope
    */
   public function startPhantom(BeforeScenarioScope $scope) {
-    echo 'start';
     $this->mink->getSession()->getDriver('phantomjs')->stop();
     $this->mink->getSession()->getDriver('phantomjs')->start();
   }
@@ -30,7 +29,6 @@ class PhantomJsContext implements MinkAwareContext {
    * @param AfterScenarioScope $scope
    */
   public function stopPhantom(AfterScenarioScope $scope) {
-    echo 'stop';
     $this->mink->getSession()->getDriver('phantomjs')->stop();
   }
 
