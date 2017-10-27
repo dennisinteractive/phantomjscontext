@@ -6,7 +6,7 @@ use Behat\Behat\Hook\Scope\AfterScenarioScope;
 use Behat\MinkExtension\Context\MinkAwareContext;
 use Behat\Mink\Mink;
 
-class PantomJsContext implements MinkAwareContex {
+class PhantomJsContext implements MinkAwareContext {
 
   /**
    * @var Mink
@@ -20,8 +20,8 @@ class PantomJsContext implements MinkAwareContex {
    */
   public function startPhantom(BeforeScenarioScope $scope) {
     echo 'start';
-    $this->Mink->getSession()->getDriver('phantomjs')->stop();
-    $this->Mink->getSession()->getDriver('phantomjs')->start();
+    $this->mink->getSession()->getDriver('phantomjs')->stop();
+    $this->mink->getSession()->getDriver('phantomjs')->start();
   }
 
   /**
@@ -31,7 +31,7 @@ class PantomJsContext implements MinkAwareContex {
    */
   public function stopPhantom(AfterScenarioScope $scope) {
     echo 'stop';
-    $this->MinkContext->getSession()->getDriver('phantomjs')->stop();
+    $this->mink->getSession()->getDriver('phantomjs')->stop();
   }
 
   /**
