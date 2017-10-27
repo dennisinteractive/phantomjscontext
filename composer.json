@@ -15,8 +15,7 @@
   "require": {
     "saintberry/phantomjs-extension": "dev-28851_enable_restart_afterscenario"
   },
-
-  "autoload": {
-    "psr-4": {"dennisdigital\\": "src/"}
+"autoload": {
+    "psr-0": {"Behat\\PhantomContext": "src/"}
   }
 }
