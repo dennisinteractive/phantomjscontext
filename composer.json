@@ -5,15 +5,8 @@
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:dennisinteractive/PhantomJs-Extension.git",
-      "no-api": true
-    }
-  ],
   "require": {
-    "saintberry/phantomjs-extension": "dev-28851_enable_restart_afterscenario"
+    "dennisdigital/phantomjs-extension": "dev-28851_enable_restart_afterscenario"
   },
 "autoload": {
     "psr-0": {"Behat\\PhantomContext": "src/"}
