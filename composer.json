@@ -7,11 +7,9 @@
   "prefer-stable": true,
   "repositories": [
     {
-      "type": "composer",
-      "url": "https://repo.packagist.com/dennisdigital/"
-    },
-    {
-      "packagist.org": false
+      "type": "vcs",
+      "url": "git@github.com:dennisinteractive/PhantomJs-Extension.git",
+      "no-api": true
     }
   ],
   "require": {
