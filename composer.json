@@ -5,6 +5,15 @@
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.packagist.com/dennisdigital/"
+    },
+    {
+      "packagist.org": false
+    }
+  ],
   "require": {
     "dennisdigital/phantomjs-extension": "1.1"
   },
