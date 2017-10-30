@@ -5,13 +5,6 @@
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:dennisinteractive/PhantomJs-Extension.git",
-      "no-api": true
-    }
-  ],
   "require": {
     "dennisdigital/phantomjs-extension": "^1.1"
   },
