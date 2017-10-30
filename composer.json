@@ -13,9 +13,9 @@
     }
   ],
   "require": {
-    "dennisdigital/PhantomJs-Extension": "^1.1"
+    "dennisdigital/phantomjs-extension": "^1.1"
   },
-"autoload": {
+  "autoload": {
     "psr-0": {"Behat\\PhantomContext": "src/"}
   }
 }
