@@ -6,7 +6,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "dennisdigital/phantomjs-extension": "dev-28851_enable_restart_afterscenario"
+    "dennisdigital/phantomjs-extension": "1.1"
   },
 "autoload": {
     "psr-0": {"Behat\\PhantomContext": "src/"}
